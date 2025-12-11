@@ -16,7 +16,7 @@ a{
 
 /*--------------header--------------*/
 
-.header-menu-list:hover,
+.header-menu-item:hover,
 .header-menu-list:focus{
     text-decoration: underline;
     color: #404bbf;
@@ -37,18 +37,24 @@ a{
 }
 
 .header-menu-list .header-menu-item{
-    font-weight: 500;
+    color: #2E2F42;
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
 }
 
 .adress-menu-list{
-    font-weight: 500;
+    color:#434455;
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .adress-menu-item:hover,
@@ -115,5 +121,16 @@ a{
 }
 
 .footer-text{
-    color: #fff
+    color: #F4F4FD;
 }
+
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
