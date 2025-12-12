@@ -16,12 +16,6 @@ a{
 
 /*--------------header--------------*/
 
-.header-menu-item:hover,
-.header-menu-item:focus{
-    text-decoration: underline;
-    color: #404bbf;
-}
-
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -61,6 +55,7 @@ a{
 .address-menu-link:hover,
 .address-menu-link:focus{
     text-decoration: underline;
+    color: #404bbf;
 }
 
 /*--------------main--------------*/
@@ -149,7 +144,8 @@ a{
     color: #434455;
 }
 
-.team-item .team-text,.team-title{
+.team-item .team-text,
+.team-item .team-title{
     text-align: center;
 }
 
